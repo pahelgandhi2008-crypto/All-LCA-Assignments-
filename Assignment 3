@@ -6,7 +6,7 @@ def triangle(a,b,c):
        if s1 + s2 == s3:
            s = "It is a Right-Angled Triangle"
        else:
-            s = "It is not right-angled triangle"
+            s ="It is not right-angled triangle"
             if a == b == c:
                 s = "Equilateral Triangle"
             elif a == b or b == c or c == a:
