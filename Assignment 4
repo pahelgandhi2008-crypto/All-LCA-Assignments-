@@ -1,1 +1,34 @@
+import numpy as np
 
+l = []
+
+for i in range(2):
+    m = []
+    for j in range(2):
+        b = int(input("Enter element of Matrix 1: "))
+        m.append(b)
+    l.append(m)
+
+l1 = []
+
+for i in range(2):
+    n = []
+    for j in range(2):
+        a = int(input("Enter element of Matrix 2: "))
+        n.append(a)
+
+    l1.append(n)
+
+A = np.array(l)
+B = np.array(l1)
+
+print("Matrix 1:")
+print(A)
+
+print("Matrix 2:")
+print(B)
+
+C = A + B
+
+print("Addition of two matrices:")
+print(C)
